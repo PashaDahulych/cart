@@ -881,11 +881,23 @@
         <div id="popup" aria-hidden="true" class="popup">
             <div class="popup__wrapper">
                 <div class="popup__content">
-                    <button
-                        data-close
-                        type="button"
-                        class="popup__close"
-                    ></button>
+                    <button data-close type="button" class="popup__close">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                        >
+                            <path
+                                d="M3 17L17 3M17 17L3 3"
+                                stroke="#333538"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </button>
                     <div class="popup__body">
                         <h2 class="popup__title title">Кошик</h2>
                         <form class="popup__form" action="#" method="POST">
@@ -910,17 +922,20 @@
                                         </a>
                                         <div class="order__body">
                                             <div class="order__label label">
-                                                <div class="label__availability">наявності</div>
-                                                <div class="label__complect">комплект</div>
+                                                <div
+                                                    class="label__availability"
+                                                >
+                                                    наявності
+                                                </div>
+                                                <div class="label__complect">
+                                                    комплект
+                                                </div>
                                             </div>
                                             <div class="order__sub-title">
-                                                <a href="#"
-                                                    >Зимовий самокат на лижні 2
-                                                    в 1 SB-Snowcooter-01</a
-                                                >
+                                                <a href="#">Ведмеже місто</a>
                                             </div>
-                                            <div class="order__code">
-                                                Код: 1751283
+                                            <div class="order__author">
+                                                Бен Макінтайр
                                             </div>
                                         </div>
                                     </div>
@@ -1016,29 +1031,25 @@
                                             </picture>
                                         </a>
                                         <div class="order__body">
-                                            <div
-                                                class="order__label label"
-                                            >
-                                                <div class="label__pre-order">передзамовлення</div>
-                                                <div class="label__delivery">
-                                                    Доставка: <span>березень 2024</span>
+                                            <div class="order__label label">
+                                                <div
+                                                    class="label__availability"
+                                                >
+                                                    наявності
+                                                </div>
+                                                <div class="label__complect">
+                                                    комплект
                                                 </div>
                                             </div>
                                             <div class="order__sub-title">
                                                 <a href="#"
-                                                    >Гойдалка Geom Double
-                                                    KIDIGO</a
-                                                >
+                                                    >Шпигун і зрадник. Визначна
+                                                    шпигунська історія часів
+                                                    Холодної війни
+                                                </a>
                                             </div>
-                                            <div class="order__code">
-                                                Код: 09324
-                                            </div>
-                                            <div class="order__color">
-                                                Колір: <span>Гама 1</span>
-                                            </div>
-                                            <div class="order__type">
-                                                Вид сидіння:
-                                                <span>Сидіння Adult</span>
+                                            <div class="order__author">
+                                                Бен Макінтайр
                                             </div>
                                         </div>
                                     </div>
@@ -1089,7 +1100,115 @@
                                             </div>
                                             <div class="order__prices">
                                                 <div class="order__price">
-                                                    450 грн
+                                                    292 грн
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href="#" class="order__remove">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                fill="none"
+                                            >
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    stroke-width="1.5"
+                                                    d="M14.844 10v7m-4-7v7m-4-11v11.8c0 1.12 0 1.68.218 2.108a2 2 0 0 0 .874.874c.427.218.987.218 2.105.218h5.606c1.118 0 1.677 0 2.104-.218.377-.192.683-.498.875-.874.218-.428.218-.987.218-2.105V6m-12 0h2m-2 0h-2m4 0h8m-8 0c0-.932 0-1.398.152-1.765a2 2 0 0 1 1.082-1.083C10.446 3 10.912 3 11.844 3h2c.932 0 1.398 0 1.765.152a2 2 0 0 1 1.082 1.083c.153.367.153.833.153 1.765m0 0h2m0 0h2"
+                                                />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="order__item">
+                                    <div class="order__row">
+                                        <a href="#" class="order__image">
+                                            <picture>
+                                                <source
+                                                    type="image/webp"
+                                                    srcset="
+                                                        img/image-product-10.webp
+                                                    "
+                                                />
+                                                <img
+                                                    src="img/image-product-10.jpg"
+                                                    alt=""
+                                                    width="205"
+                                                    height="260"
+                                                />
+                                            </picture>
+                                        </a>
+                                        <div class="order__body">
+                                            <div class="order__label label">
+                                                <div class="label__pre-order">
+                                                    передзамовлення
+                                                </div>
+                                                <div class="label__delivery">
+                                                    Доставка:
+                                                    <span>березень 2024</span>
+                                                </div>
+                                            </div>
+                                            <div class="order__sub-title">
+                                                <a href="#"
+                                                    >Велике розслідування.
+                                                    Хапайся за зачіпку
+                                                </a>
+                                            </div>
+                                            <div class="order__author">
+                                                Анжелс Наварро
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order__actions">
+                                        <div class="order__l-action">
+                                            <div class="calc">
+                                                <a
+                                                    href="#"
+                                                    class="calc__btn calc__minus"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="36"
+                                                        height="36"
+                                                        fill="none"
+                                                    >
+                                                        <path
+                                                            fill="none"
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            d="M11.625 18h12"
+                                                        />
+                                                    </svg>
+                                                </a>
+                                                <input
+                                                    type="text"
+                                                    class="calc__input"
+                                                    value="1"
+                                                />
+                                                <a
+                                                    href="#"
+                                                    class="calc__btn calc__plus"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        width="36"
+                                                        height="36"
+                                                        fill="none"
+                                                    >
+                                                        <path
+                                                            stroke="none"
+                                                            fill-rule="evenodd"
+                                                            d="M17.955 11.5a.5.5 0 0 0-1 0v5.498h-5.5a.5.5 0 1 0 0 1h5.5V23.5a.5.5 0 1 0 1 0v-5.502h5.504a.5.5 0 0 0 0-1h-5.504V11.5Z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="order__prices">
+                                                <div class="order__price">
+                                                    350 грн
                                                 </div>
                                             </div>
                                         </div>
